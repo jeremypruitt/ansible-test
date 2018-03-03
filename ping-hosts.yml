@@ -1,0 +1,3 @@
+- hosts: test-hosts
+  tasks:
+    - shell: ping -c 4 google.com
